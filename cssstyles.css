@@ -1,0 +1,258 @@
+/*-------------------------Kayal Handmade Crochets CSS file------------------------*/
+body
+{
+    width:80%;
+    margin:7% auto; 
+    background-color:rgb(250, 252, 247);
+}
+a
+{
+    text-decoration: none;
+}
+.clear_float
+{
+    clear:both;
+}
+
+/*---------------sections----------------------------*/
+.section-hero {
+    padding: 50px 0;
+}
+.section-features {
+    padding: 70px 0;
+}
+.section-testimonials {
+    padding: 70px 0;
+}
+.section-products {
+    padding: 70px 0;
+}
+
+/*--------------------------Hero-------------------=*/
+#hero h1
+{
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px #B1B1B1;
+    float:left;
+    display:inline;
+    width:40%;
+    margin:0px;
+    font-size:50px;
+}  
+#hero p
+{
+    width:40%;
+    float:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1.5% 1.5% 5% 0;
+    color:rgb(75,75,75);
+}
+#hero img
+{
+    vertical-align: top;
+    float:right;
+    border-radius: 25px;
+    width:55%;
+
+}
+#Shop_now:hover
+{
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 40px;
+    background-color: white;
+    color:black;
+    font-weight: bold;
+    border:1px solid black;
+}
+#Shop_now
+{
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 40px;
+    border: 0px;
+    background-color:rgb(64, 64, 187);
+    color:white;
+    padding:15px 40px;
+    font-size:24px;
+    text-align: center;
+}
+/*----------------------------Feature Section----------------------*/
+.quality
+{
+    width:30%;
+    float:left;
+    margin:3%;
+    margin-left:0%;/* border:1px solid rgb(152, 152, 231);*/
+} 
+.section-features h2
+{
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px #B1B1B1;
+    margin-bottom:0px; 
+    font-size: 42px;
+}
+.quality h4
+{
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size: 28px;
+}
+
+.quality p
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(75,75,75);
+}
+.quality img
+{
+    /* margin:0 auto;*/ width:20px; 
+}
+/*--------------------------------Testimonial-----------------------------*/
+.quotes
+{
+    background-color:rgb(64, 64, 187);
+    border-radius: 40px;
+    padding:1%; 
+    box-shadow: inset 0px 0px 4px rgb(183, 183, 240);
+}
+.quotes img
+{
+    float:left;
+    border-radius: 25px;
+    width:40%;
+    /* margin-right:5%;  */
+    margin: 1% 4% 1% 1%;
+}
+.quotes h3
+{
+    float:left;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    width:55%;
+    margin-bottom:2.5%;
+}
+
+.quotes p
+
+{
+    float:right;
+    color:white;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 26px;
+    text-indent:50px;
+    margin-left:0%; 
+    margin-bottom:0%;
+    padding-top:20px;
+    width:55%;
+    font-style:italic;
+
+}
+.quotes span
+
+{
+    text-align: right;
+    display:block;
+    font-size:22px;
+    font-style:normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right:2%;
+}
+/*-------------------------product--------------------*/
+.product
+{
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 25px;
+    width:30%;
+    height:70%;
+    float:left;
+    margin:3.2%;
+    margin-left:0%;
+}
+.section-products h2
+{   font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px #B1B1B1;
+    margin-bottom:0px; font-size: 42px;
+} 
+.product img
+{
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+}
+#product_name
+{
+    font-family:Arial, Helvetica, sans-serif; font-weight:bold;  font-size: 24px;  padding:40px 0 10px 40px;
+    padding-left:40px;
+    margin-bottom:0%;
+    width:100%;
+}
+.product h3/*price*/
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+    float:left;
+    width:40%;
+    padding-left:40px;
+    position:relative;
+    top:-15px;
+}
+#addtocart
+{
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 40px;
+    border: 0px;
+    background-color:rgb(64, 64, 187);
+    color:white;
+    padding:10px 20px;
+    font-size:12px;
+    text-align: center;
+    text-align: right;
+    float:left;
+}
+#addtocart:hover
+{
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 40px;
+    background-color: white;
+    color:black;
+    font-weight: bold;
+    border:1px solid black;
+}
+/*-----------------------------List in Product-----------------*/
+.product li
+{
+    line-height: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    /* font-weight:bold; */
+    /* list-style: url('./my projects/heart.jpg'); */
+    list-style: none; padding-left:0px;
+} 
+      
+.yarn:before {
+        content: "👉";
+        margin: 0 16px 0 0;
+      }
+.time:before {
+        content: '\2728'; 
+        margin: 0 16px 0 0;
+      }
+.color:before {
+        content:"📌";
+        margin: 0 16px 0 0;
+      }
+.size:before {
+        content: '\1F60A'; 
+        margin: 0 16px 0 0;
+      }
+/*-----------------------------------------------------------------*/
+
+      
+
+
+
+
+
